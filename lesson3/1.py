@@ -1,0 +1,6 @@
+name = input('Имя')
+surname = input ('Фамилия')
+age = input ('Возраст')
+print (name, surname, age)
+print (name, surname, age, sep=" : ")
+print ('\n-', name,'\n-',surname,'\n-',age)
