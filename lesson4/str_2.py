@@ -8,7 +8,7 @@
 
 a = (input('Введите цифры через пробел: '))
 b = (a.split(' '))
-c = [*map(float, b)]
+c = list(map(float, b))
 
 print('Общая сумма цифр: ', sum(c))
 print('Максимальная цифра: ', max(c))

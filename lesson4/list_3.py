@@ -7,5 +7,5 @@
 a = ['q', 'w', 'e', 'r', 't']
 a[0], a[4] = a[4], a[0]
 
-a.pop(2)
-print(a[2])
+b = a.pop(2)
+print(b)

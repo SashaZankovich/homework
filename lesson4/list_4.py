@@ -6,4 +6,7 @@
 '''
 
 a = ['hello', 'python', 'интерпретатор', 'pep8', "123"]
-print(len(a[0]), len(a[1]), len(a[2]), len(a[3]), len(a[4]))
+
+b = list((map(len, a)))
+
+print(b)
