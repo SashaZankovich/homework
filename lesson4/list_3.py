@@ -8,4 +8,4 @@ a = ['q', 'w', 'e', 'r', 't']
 a[0], a[4] = a[4], a[0]
 
 b = a.pop(2)
-print(b)
+print(a[2])
