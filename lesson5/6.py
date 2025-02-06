@@ -32,3 +32,4 @@ mn1, mn2, mn3 = set(a1), set(a2), set(a3)
 print("Числа, которые есть в каждой строке: ", *mn1.intersection(mn2, mn3))
 
 print("Числа, которые есть только в одной строке: ", *mn1.difference(mn2, mn3), *mn2.difference(mn1, mn3), *mn3.difference(mn1, mn2))
+#изменить
