@@ -6,3 +6,20 @@
         в диапазоне от 0 до этого числа делится без остатка на 11.
 '''
 
+n = int(input('Ввидете число: '))
+
+#if n <= 0:
+   # print(0)
+#else: 
+    #a = 7 if n < 20 else 11
+    #b = n // a 
+    #print(b)
+
+if n < 0:
+    print(0)
+elif 0 <= n <= 20:
+    print(n // 7)
+else:
+    print(n // 11)
+
+
