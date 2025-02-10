@@ -8,13 +8,6 @@
 
 n = int(input('Ввидете число: '))
 
-#if n <= 0:
-   # print(0)
-#else: 
-    #a = 7 if n < 20 else 11
-    #b = n // a 
-    #print(b)
-
 if n < 0:
     print(0)
 elif 0 <= n <= 20:
