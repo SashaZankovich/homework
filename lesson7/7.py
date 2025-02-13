@@ -5,3 +5,17 @@
 
 """
 
+
+num = input('Введите любое число не менее 10: ')
+t = 0
+
+for i in enumerate(num):
+    if int(num) >= 10: 
+        a = int(i[1]) * int(i[1])
+        t += a
+
+if t >= 1:
+    print('Сумма квадратов каждой цифры числа: ', t)
+else:
+    print('Ошибка')
+

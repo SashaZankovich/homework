@@ -14,3 +14,24 @@
     Неправильный формат. Пример: '2 + 4'
 
 """
+
+user = ''
+
+while user != 'стоп':
+    user = input('Введите пример или "стоп" для завершения: ')
+    b = user.split()
+    if ' + ' in user:
+        print('Ответ:', int(b[0]) + int(b[2]))
+    elif ' - '  in user:
+        print('Ответ:', int(b[0]) - int(b[2]))
+    elif ' * ' in user:
+        print('Ответ:', int(b[0]) * int(b[2]))
+    elif ' ** ' in user:
+        print('Ответ:', int(b[0]) ** int(b[2]))
+    elif ' / ' in user:
+        print('Ответ:', int(b[0]) / int(b[2]))
+    elif user == 'стоп':
+        break
+    else:
+        print('Неправильный формат. Пример "2 + 4"')
+        
