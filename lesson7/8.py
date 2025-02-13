@@ -17,7 +17,7 @@
 
 user = ''
 
-while user != 'стоп':
+while True:
     user = input('Введите пример или "стоп" для завершения: ')
     b = user.split()
     if ' + ' in user:

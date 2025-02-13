@@ -12,7 +12,7 @@ v = {}
 user_name = ''
 user_review = ''
 
-while user_name != 'stop' or user_review != 'stop':
+while True:
     user_name = input('Введите ваше имя: ')
     user_review = input('Введите ваш отзыв: ')
     if user_name != 'stop' and user_review != 'stop':

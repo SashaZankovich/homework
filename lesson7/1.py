@@ -7,7 +7,7 @@ marks = ''
 i = 0
 b = 0
 
-while marks != 0:
+while True:
     marks = int(input('Введите оценку ученика: '))
     if marks == 0:
         break
