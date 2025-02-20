@@ -9,9 +9,9 @@
 num = input('Введите любое число не менее 10: ')
 t = 0
 
-for i in enumerate(num):
+for i1, i2 in enumerate(num):
     if int(num) >= 10: 
-        a = int(i[1]) * int(i[1])
+        a = int(i2) * int(i2)
         t += a
 
 if t >= 1:

@@ -11,14 +11,12 @@
 '''
 
 a = [1,2,3,4,5,6,7,8,9]
-b = [1,2,3,4,5,6,7,8,9]
-c = [1,2,3,4,5,6,7,8,9]
 
 a1 = list(map(lambda x: x**2, a))
 print(a1)
 
-b1 = list(map(lambda x: x+3 if x % 2 == 0 else x, b))
-print(b1)
+a2 = list(map(lambda x: x+3 if x % 2 == 0 else x, a))
+print(a2)
 
-c1 = list(map(lambda x: x*2 if x % 2 == 0 else x*3, b))
-print(c1)
+a3 = list(map(lambda x: x*2 if x % 2 == 0 else x*3, a))
+print(a3)

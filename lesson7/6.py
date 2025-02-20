@@ -15,10 +15,9 @@ user_review = ''
 while True:
     user_name = input('Введите ваше имя: ')
     user_review = input('Введите ваш отзыв: ')
-    if user_name != 'stop' and user_review != 'stop':
-        v[user_name] = user_review
-    else:
+    if user_name == 'stop' and user_review == 'stop':
         break
+    v[user_name] = user_review
 
 print('Количество отзывов: ', len(v))
 print('Имена пользователей:', *v.keys(), sep='\n - ')

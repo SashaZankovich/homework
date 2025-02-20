@@ -15,10 +15,8 @@
 """
 spisok = [{"name":"Dima", "login":"Dima1988", "password":"Qwerty123" },
           {"name":"Egor", "login":"Egor2001", "password":"!qaz" },
-          {"name":"Oleg", "login":"Oleg1999", "password":"asd" }]
+          {"name":"Oleg", "login":"Oleg1999", "password":"asbbbd" }]
 
-def f1(user):
-    return len(user['password']) < 5
 
-f = filter(f1, spisok)
+f = filter(lambda x: len(x['password']) < 5, spisok)
 print(*f)
