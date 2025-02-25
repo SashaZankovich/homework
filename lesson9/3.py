@@ -19,3 +19,14 @@ def f1(a : int, b : int):
 print(f1(3, 5))
 print(f1(5, 9))
 
+# c рекурсией
+def f2(a : int, b : int):
+    if a == b:
+        pass
+    elif a > b:
+        return "Число 'а' должно быть меньше числа 'b'"
+    else:
+        return a + f2(a + 1, b)
+    
+print(f2(3, 5))
+print(f2(5, 9))
